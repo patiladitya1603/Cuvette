@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="new.css">
+</head>
+<body>
+  <div class="main-view">
+    <header>
+      <div class="score-board">
+        <h1>
+          ROCK <br>
+          PAPER <br>
+          SCISSORS
+        </h1>
+        <div class="score-display">
+          <div class="score-count">
+            Computer <br>Score
+            <div class="comp-score">0</div>
+          </div>
+          <div class="score-count">
+            Your <br>Score
+            <div class="player-score">0</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Playing Zone -->
+      <div class="play-zone">
+        <div class="play-zone__top">
+          <div class="game-item" id="rocks">
+            <img src="images/rock.png" width="50%" height="35%">
+          </div>
+          <div class="game-item" id="scissors">
+            <img src="images/scissor.png">
+          </div>
+          <img src="images/Line 1.png" id="line-one">
+          <img src="images/Line 2.png" id="line-two">
+          <img src="images/Line 3.png" id="line-three">
+        </div>
+        <div class="play-zone__bottom game-item" id="papers">
+          <img src="images/paper.png" width="40%" height="40%">
+        </div>
+      </div>
+
+      <!-- Result Section -->
+      <div class="result-view">
+        <div class="side-section">
+          <div class="side-message">YOU PICKED</div>
+          <div class="user-icon">
+            <div class="icon" id="user-rocks">
+              <img src="images/rock.png" width="40%" height="35%">
+            </div>
+            <div class="icon" id="user-scissors">
+              <img src="images/scissor.png">
+            </div>
+            <div class="icon" id="user-papers">
+              <img src="images/paper.png" width="40%" height="40%">
+            </div>
+          </div>
+        </div>
+        <div class="result-section">
+          <div class="result-message" id="win-message">YOU WON</div>
+          <div class="result-message" id="lost-message">YOU LOST</div>
+          <div class="result-message" id="tie-message">TIE UP</div>
+          <div class="sub-message">AGAINST PC</div>
+          <button class="play-button">PLAY AGAIN</button>
+          <button class="retry-button">REPLAY</button>
+        </div>
+        <div class="side-section">
+          <div class="side-message">PC PICKED</div>
+          <div class="pc-icon">
+            <div class="icon" id="pc-rocks">
+              <img src="images/rock.png" width="40%" height="35%">
+            </div>
+            <div class="icon" id="pc-scissors">
+              <img src="images/scissor.png">
+            </div>
+            <div class="icon" id="pc-papers">
+              <img src="images/paper.png" width="40%" height="40%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="victory-screen">
+    <div class="trophy-section">
+      <img src="images/Vector.png" alt="trophy image">
+      <img src="images/Group 5.png" alt="stars" class="stars-section">
+    </div>
+    <div class="hurray-message">HURRAY!!</div>
+    <div class="win-message">YOU WON THE GAME</div>
+    <button class="victoryPlayBtn">PLAY AGAIN</button>
+  </div>
+
+  <!-- Rules Section -->
+  <div class="close-icon">
+    <img src="images/X.png" alt="close" width="50%" height="50%">
+  </div>
+  <div class="game-rules">
+    <h4>Game Rules</h4>
+    <div class="rules-content">
+      <div>
+        <div class="highlight">🟨</div>
+        <div>Rock crushes scissors, scissors cut paper, and paper covers rock.</div>
+      </div>
+      <div>
+        <div class="highlight" style="width: 3rem">🟨</div>
+        <div>Decide beforehand whether to count “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</div>
+      </div>
+      <div>
+        <div class="highlight">🟨</div>
+        <div>Use the game to make small decisions or just for fun.</div>
+      </div>
+      <div>
+        <div class="highlight">🟨</div>
+        <div>If both players choose the same, play another round.</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <button class="show-rules">RULES</button>
+    <button class="proceed">NEXT</button>
+  </footer>
+  <script src="newjs.js"></script>
+</body>
+</html>
