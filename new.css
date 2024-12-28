@@ -98,7 +98,7 @@ main {
   position: relative;
 }
 
-.play-zone__top {
+.play-zone_top {
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -130,7 +130,7 @@ main {
   width: 13%;
 }
 
-.play-zone__bottom {
+.play-zone_bottom {
   position: relative;
   height: 40%;
 }
@@ -457,7 +457,7 @@ footer > button {
     width: 80%;
   }
 
-  .play-zone__top {
+  .play-zone_top {
     flex-wrap: wrap;
     justify-content: center;
     height: 47%;
